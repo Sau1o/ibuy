@@ -3,7 +3,7 @@ import { router } from "expo-router"
 
 export default function Signup(){
 	function back(){
-		router.navigate('/')
+		router.back()
 	}
 
 	return(
